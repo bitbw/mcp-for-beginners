@@ -1,0 +1,22 @@
+{
+    "type": "module",
+    "bin": {
+        "weather": "./build/index.js"
+    },
+    "scripts": {
+        "build": "tsc && node build/index.js",
+        "inspector": "npx @modelcontextprotocol/inspector node build/index.js"
+    },
+    "files": [
+        "build"
+    ],
+    "dependencies": {
+        "@modelcontextprotocol/sdk": "^1.15.0",
+        "zod": "^3.25.75"
+    },
+    "devDependencies": {
+        "@modelcontextprotocol/inspector": "^0.8.0",
+        "@types/node": "^24.0.10",
+        "typescript": "^5.8.3"
+    }
+}
