@@ -9,8 +9,8 @@ class MyClient {
     private client: Client;
     constructor(){
         this.openai = new OpenAI({
-            baseURL: "https://models.inference.ai.azure.com", // might need to change to this url in the future: https://models.github.ai/inference
-            apiKey: process.env.GITHUB_TOKEN,
+            // baseURL: "https://models.inference.ai.azure.com", // might need to change to this url in the future: https://models.github.ai/inference
+            apiKey: "xxx",  // Replace with your actual OpenAI API key
         });
 
        

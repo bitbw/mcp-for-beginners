@@ -16,10 +16,42 @@ server.tool("add",
   })
 );
 
+
+
+server.tool(
+  "fibonacci",
+  "计算斐波那契数列的工具，接受数列的索引（index），返回对应的斐波那契数值。",
+  {
+    index: z.number().int().nonnegative().describe("The index (n) in the Fibonacci sequence to calculate (0-based)"),
+  },
+  async ({ index }) => {
+    console.log("[BOWEN_LOG] 🚀 ~~ index:", index);
+    function fib(n: number): number {
+      if (n === 0) return 0;
+      if (n === 1) return 1;
+      let a = 0, b = 1;
+      for (let i = 2; i <= n; i++) {
+        [a, b] = [b, a + b];
+      }
+      return b;
+    }
+    return {
+      content: [
+        {
+          type: "text",
+          text: String(fib(index)),
+        },
+      ],
+      description: "计算斐波那契数列的工具，接受数列的索引（index），返回对应的斐波那契数值。",
+    };
+  },
+  
+);
+
 // Add a dynamic greeting resource
 server.resource(
   "file",
-  new ResourceTemplate("file://{path}", { list: undefined }),
+  new ResourceTemplate("file:///{path}", { list: undefined }),
   async (uri, { path }) => ({
     contents: [{
       uri: uri.href,
