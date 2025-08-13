@@ -9,7 +9,7 @@ const server = new McpServer({
 });
 
 // Add an addition tool
-server.tool("add",
+server.tool("add",  "一个简单的加法工具，接受两个数字参数 a 和 b，返回它们的和。",
   { a: z.number(), b: z.number() },
   async ({ a, b }) => ({
     content: [{ type: "text", text: String(a + b) }]

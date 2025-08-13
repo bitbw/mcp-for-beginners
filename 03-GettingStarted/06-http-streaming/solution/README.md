@@ -1,5 +1,5 @@
-Here's the solutions for each runtime:
-
-- [Python](./python/README.md)
-- [Java](./java/README.md)
-- [.NET](./dotnet/README.md)
+Canadian Man Survives 9 Days in Wilderness
+Wednesday, 13 August, 2025152 words2 minutes
+In a remarkable tale of survival, Andrew Barber, a 39-year-old Canadian man, was rescued after spending nine days in the wilderness of British Columbia. Barber's ordeal began when his truck broke down near McLeese Lake, about 587 kilometers north of Vancouver.
+Demonstrating incredible resourcefulness, Barber employed several tactics to stay alive. He constructed a makeshift shelter using sticks and mud, and resorted to drinking pond water to stave off dehydration. In a desperate attempt to be noticed, he etched the word 'HELP' on a rock and wrote 'SOS' in the mud.
+The breakthrough in the search came when a Royal Canadian Mounted Police (RCMP) helicopter spotted Barber's truck on a forest road, which helped narrow down the search area. Upon rescue, Barber was found to be severely dehydrated and had sustained a leg injury. Despite his ordeal, RCMP Staff Sgt Brad McKinnon reported that Barber was doing 'quite well' after his rescue.
